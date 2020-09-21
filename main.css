@@ -8,26 +8,44 @@ body {
 }
 
 .menu {
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     top: 0;
-    height: 40px;
+    text-align: center;
     width: 100%;
 }
 
 .menu a {
-    float: left;
-    display: block;
+    display: inline-block;
     color: aliceblue;
-    padding: 14px 16px;
-    text-align: center;
+    padding: 15px 25px;
     text-decoration: none;
     font-size: 12px;
 }
 
+.menu a:hover {
+    color: black;
+    background-color: #0cd9f5;
+  }
+
 #banner {
     background-image: url(Pictures/banner_assassins_creed.jpg);
     width: 100%;
-    height: 100%;
+    height: auto;
+}
+
+.main {
+    padding: 10px;
+    transform: translate(150px,-100px);
+    background-color: white;
+}
+
+.thumb {
+    display: block;
+    text-align: center;
+}
+
+.thumb-image {
+    width: 170;
+    height: 170;
 }
